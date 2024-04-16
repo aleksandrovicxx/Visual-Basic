@@ -17,6 +17,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "str47", "str47\str47.vbproj
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "str49zad1", "str49zad1\str49zad1.vbproj", "{EE520E76-1538-45AF-9E07-C851F3AFFBCF}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "str50", "str50\str50.vbproj", "{DDCD845C-52EA-4670-9638-EAC516E6BCD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{EE520E76-1538-45AF-9E07-C851F3AFFBCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE520E76-1538-45AF-9E07-C851F3AFFBCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE520E76-1538-45AF-9E07-C851F3AFFBCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDCD845C-52EA-4670-9638-EAC516E6BCD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDCD845C-52EA-4670-9638-EAC516E6BCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDCD845C-52EA-4670-9638-EAC516E6BCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDCD845C-52EA-4670-9638-EAC516E6BCD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

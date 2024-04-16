@@ -12,8 +12,6 @@
         Console.WriteLine($"{prviBroj} * {drugiBroj} = {prviBroj * drugiBroj}")
         Console.WriteLine($"{prviBroj} / {drugiBroj} = {prviBroj / drugiBroj}")
 
-
-
     End Sub
 
 End Module

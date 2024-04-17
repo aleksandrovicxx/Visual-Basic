@@ -7,7 +7,7 @@
     Dim pavlaka As Integer = 55
     Dim cokolada As Integer = 125
     Dim cena As Integer = 0
-    Dim poruka As String = ""
+    Dim poruka As String = " "
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If CheckBox1.Checked Then

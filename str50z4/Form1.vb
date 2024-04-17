@@ -16,7 +16,7 @@
         End If
         If CheckBox2.Checked Then
             cena = cena + kifla
-            poruka += "Kifla" & vbNewLine
+            poruka += "Kifla " & vbNewLine
         End If
         If CheckBox3.Checked Then
             cena = cena + mleko

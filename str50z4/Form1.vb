@@ -34,7 +34,6 @@
             cena = cena + cokolada
             poruka += "Cokolada " & vbNewLine
         End If
-
         TextBox1.Text = poruka & vbNewLine & "Ukupno:  " & cena
     End Sub
 End Class

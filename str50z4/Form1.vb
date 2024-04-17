@@ -20,22 +20,21 @@
         End If
         If CheckBox3.Checked Then
             cena = cena + mleko
-            poruka += "Mleko" & vbNewLine
+            poruka += "Mleko " & vbNewLine
         End If
         If CheckBox4.Checked Then
             cena = cena + jogurt
-            poruka += "Jogurt" & vbNewLine
+            poruka += "Jogurt " & vbNewLine
         End If
         If CheckBox5.Checked Then
             cena = cena + pavlaka
-            poruka += "Pavlaka" & vbNewLine
+            poruka += "Pavlaka " & vbNewLine
         End If
         If CheckBox6.Checked Then
             cena = cena + cokolada
-            poruka += "Cokolada" & vbNewLine
+            poruka += "Cokolada " & vbNewLine
         End If
 
-        TextBox1.Text = poruka & vbNewLine & "Ukupno: " & cena
-
+        TextBox1.Text = poruka & vbNewLine & "Ukupno:  " & cena
     End Sub
 End Class

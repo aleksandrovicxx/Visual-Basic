@@ -7,12 +7,12 @@
         Dim unetiPass
         Dim brojac As Integer = 0
         Do
-            Console.WriteLine("Unesite ime i lozinku")
-            Console.WriteLine("Preostali broj pokusaja: ")
             If brojac = 3 Then
-
+                Console.WriteLine("Prekoracili ste broj pokusaja")
                 Exit Do
             End If
+            Console.WriteLine("Unesite ime i lozinku")
+            Console.WriteLine($"Preostali broj pokusaja: {3 - brojac}")
             brojac = brojac + 1
             unetoIme = Console.ReadLine()
             unetiPass = Console.ReadLine()

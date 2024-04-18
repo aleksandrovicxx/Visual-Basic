@@ -6,7 +6,15 @@
         Dim unetoIme As String
         Dim unetiPass
         Dim brojac As Integer = 0
+        Dim odgovor As String
         Do
+            If Not brojac = 0 Then
+                Console.WriteLine("Da li zelite ponovni pokusaj? (Y/N)")
+                odgovor = Console.ReadLine()
+                If odgovor = "N" Or odgovor = "n" Then
+                    Exit Do
+                End If
+            End If
             If brojac = 3 Then
                 Console.WriteLine("Prekoracili ste broj pokusaja")
                 Exit Do

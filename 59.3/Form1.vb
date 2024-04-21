@@ -5,7 +5,7 @@
 
         For i As Integer = 1 To 999999
             If i Mod 17 = 0 Then
-                counter += 11
+                counter += 1
                 TextBox2.Text += $"{counter}.  {i}{vbNewLine}"
                 If counter = n Then
                     Exit For

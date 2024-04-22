@@ -2,7 +2,6 @@
 
     Sub Main()
         Dim brojevi() As Integer = {7, 3, 1, 4, 2}
-
         For Each broj As Integer In brojevi
             Console.WriteLine(broj)
         Next

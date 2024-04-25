@@ -30,34 +30,34 @@ Partial Class Form1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(46, 25)
+        Me.TextBox1.Location = New System.Drawing.Point(46, 31)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(346, 20)
         Me.TextBox1.TabIndex = 0
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(350, 215)
+        Me.TextBox2.Location = New System.Drawing.Point(46, 60)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox2.Size = New System.Drawing.Size(251, 261)
         Me.TextBox2.TabIndex = 1
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(439, 109)
+        Me.TextBox3.Location = New System.Drawing.Point(303, 60)
         Me.TextBox3.Multiline = True
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox3.Size = New System.Drawing.Size(236, 261)
         Me.TextBox3.TabIndex = 2
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(447, 117)
+        Me.Button1.Location = New System.Drawing.Point(398, 31)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(141, 23)
         Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "DODAJ"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Form1

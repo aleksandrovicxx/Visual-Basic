@@ -26,6 +26,6 @@
             TextBox3.Text += ime & vbNewLine
         Next
         brojImena = brojImena + 1
-        TextBox1.Text
+        TextBox1.Text = ""
     End Sub
 End Class
